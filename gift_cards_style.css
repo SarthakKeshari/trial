@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bellota:wght@700&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+body{
+	background-color: rgba(0,0,0,0.9);
+}
+
+nav{
+	background-color: black;
+}
+
+div{
+	width: 100%;
+}
+
+.navbar-brand{
+	padding: 10px;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 0.5px;
+}
+
+#navbarNav{
+	justify-content: flex-end;
+}
+
+.nav-link{
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+.dropdown-menu{
+	background-color: white;
+}
+
+.dropdown-menu .dropdown-item{
+	padding: 10px;
+}
+
+.dropdown-menu{
+	flex-direction: column;
+	text-align: center;
+}
+
+.carousel-item .img-fluid{
+ 	width: 100%;
+}
+
+.gift-cards{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.cards img{
+	width: 60%;
+	margin: 4%;
+	border-radius: 15%;
+	border: 1px dashed black; 
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.copyright{
+	background-color: white;
+	border-top: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	font-size: 10px;
+}

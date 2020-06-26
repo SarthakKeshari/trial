@@ -1,0 +1,45 @@
+body{
+	background-image: url("checkout-wallpaper.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.logo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 8px;
+}
+
+.checkout_form{
+	background-color: rgba(0,0,0,0.5);
+	width: 90%;
+	height: 80vh;
+	margin: 5%;
+	padding: 1%;
+}
+
+label{
+	color: white;
+	text-shadow: 2px 2px #000000;
+	font-weight: 500;
+}
+
+input::placeholder{
+	font-size: 15px;
+}
+
+.row_1{
+	width: 50%;
+}
+
+.row_2{
+	width: 70%;
+}
+
+.row_3{
+	width: 30%;
+}
